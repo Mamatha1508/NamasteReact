@@ -1,0 +1,21 @@
+1. React is a javascript library and we can import React into our project using react.development and reactDOM.development js files.
+2. Why 2 files are needed? can't we have all of the React in a single file? whu 2 seperate files for react and ReactDOM? Answer : Because React not only runs on browser but also on
+   mobiles(react native) and many more places and if we embed both React and ReactDOM in the same file it won't make sense as DOM is not there on all. Hence 2 seperate files are needed.
+3. Once these 2 react files are added we can observe from console that if we type React or ReactDOM, it gives us the React objects which has many methods that can be used.
+4. Here in the index.html file initially we tried adding a heading under div using basic html and then using javascript and with React.In React we did created the h1 tag  using      createElement method which is the method of React object which takes 3 arguments: 
+        1. tag  that we want to create 2. an object in which we can add attrivutes to tag ex: {id:"heading", class:"heading" ..etc} 3. text that we add inside the tag.
+
+      //  React.createElement('h1',{id:"heading",xyz:"abc"},"Hellow world from React !")
+
+5. with createElement method, we have created an element h1 and note that here h1 is just not a tag but its an object that is created by React.If we console log h1 it returns us an object.
+6. And then we have created a root elemented using ReactDOM, note that we have created h1 element using React and root elemnt using ReactDOM. Difference is that h1 is an element that we want to add in UI and hence is created by React but root is the element in which all our UI elements such as h1 gets rendered  and is hence handled by ReactDOM.
+7. ReactDOM.createRoot  creates a root element to display all the React elements inside the DOM. here we have used div(root) as root element. what happens is that suppose if we add a
+   text in the div root like <div id="root">test</div> UI initially shows text on UI but once the script gets executed and ReactDOM creates a root element with our div root, it creates the div root and replaces the test text from UI and renders the h1 element inside it.
+8. Here all the elements created using createElement are objects , h1 is an object also the root created by createRoot method also creates a root object.
+9. The point here is inorder for react to run, it needs an element under which it will add all the other UI elements like h1, p div etc..
+10. In normal html div, React won't execute directly ryt that;s the reason it has created a root element using createRoot method and similar to createElement how we specified tag and all, we need to specify the element which is our root div tag. Here it makes the difference between React and ReactDOM where React is used for creating the elements that will be shown on UI which is the core part an ReactDOM which is used for rendering/updating these elements on UI for which it has created a root element.
+11. React will run only on this root element and if suppose there is some other html code outside the root div, then they will get executed normally like how html shows them.
+12. Also React.createElement and ReactDOM.createNode returns objects but as browser won't understand these, on browser they get convered to the respective tags.
+13. As the elements created by React are objects, they have access to many methods and properties.
+14. what are react.development js files?
+15. 
