@@ -3,6 +3,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from './components/Header';
 import Body from "./components/Body";
+import { createBrowserRouter } from "react-router-dom";
+import About from "./components/About";
+import { RouterProvider } from "react-router-dom";
+import Error from "./components/Error";
+import Contact from "./components/Contact";
+import {Outlet} from 'react-router-dom';
+import Cart from "./components/Cart";
+import RestaurantMenu from "./components/RestaurantMenu";
+import Logout from "./components/Logout";
+
 
 
 //using CreateElement method-> which is very difficult to maintain and understand with nested structire and hence we use JSX
@@ -80,19 +90,54 @@ import Body from "./components/Body";
 const AppLayout=()=>(
     <div>
         <Header />
-         <Body/>
+       
+         <Outlet/>
+        
+         
         {/* <Footer/>  */}
     </div>
 )
 
 
+const appRouter= createBrowserRouter([
+    {
+        path:'/',
+        element : <AppLayout />,
+        children :[
+            {
+                path :'/',
+                element : <Body />
+            },
+            {
+                path :'/about',
+                element : <About />
+            },{
+                path : '/contact',
+                element : <Contact />
+            },
+            {
+                path : '/cart',
+                element :<Cart />
+            },{
+                path:'restaurant/:resid',
+                element :<RestaurantMenu />
+            }
 
+        ],
+        errorElement : <Error />
+    },
+    {
+        path : '/logout',
+        element :<Logout />
 
+    }
+    
 
+])
 
 
 
 
 
 const root= ReactDOM.createRoot(document.getElementById('root'));
-root.render(<AppLayout/>);
+root.render(<RouterProvider router={appRouter} />);

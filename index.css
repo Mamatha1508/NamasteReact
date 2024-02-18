@@ -2,14 +2,12 @@
 {
     display: flex;
     justify-content: space-between;
+    box-shadow: 5px 5px 5px  grey;
+    background-color: #fff3f3 !important;
+
     
 }
-.header:hover
-{
-   
-    background-color: rgb(210, 212, 212);
-    
-}
+
 
 .logo
 {
@@ -36,38 +34,53 @@
 .res-card
 {
     width: 300px;
-    height:600px ;
+  height: 400px;
     padding: 10px;
- 
+    
     justify-content: space-between;
     margin: 10px;
+    border: 1px solid #fff3f3;
+    border-radius: 10px;
+    background-color: #fff3f3 !important;
+    text-align: center;
+    box-shadow: 10px 10px 10px grey;
+  
+}
+
+.res-card:hover
+{
+    box-shadow: 10px 10px 10px rgb(128, 65, 65);
+    background-color: red;
    
 }
 .res-item-img
 {
     width: 280px;
+    height: 150px;
     padding: 10px;
+    border-radius: 10px;
 }
-.restaurant-cart:hover
+/* .restaurant-cart:hover
 {
-    background-color: rgb(211, 186, 186) ;
+    box-shadow: 10px 10px 10px grey;
 
-}
+} */
 .Cart-items
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-evenly;
+    padding: 5px;
     cursor: pointer;
-    
+    border-style:solid black;
+
 
 }
 
 .Cart-items:hover
 {
     color: brown;
-    box-shadow: 0 0 20px 0px rgba(211, 160, 160, 0.2);
+   
 }
 
 .shimmer-container
@@ -78,19 +91,182 @@
 
 .shimmer-cart
 {
-    margin: 10px;
+    margin: 10px ;
+    border-style:solid black;
     padding: 10px;
-    background-color: rgb(179, 176, 176);
+    background-color: #fff3f3;
     width: 300px;
-    height: 500px;
+    height: 300px;
+   border-radius: 30px;
+
 }
 .login
 {
     height: 50px;
     padding: 0px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #fff3f3;
+    
 }
-.search-bar
+.login:hover
+{
+    box-shadow: 10px 10px 10px grey;
+}
+.search-bar , .top-res
 {
     display: flex;
     height: 40px;
+    justify-content: center;
+    padding: 20px;
+
+   
 }
+
+.search-bar > input
+{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.search-bar > button
+{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: #fff3f3;
+    border: none;
+    font-size: 20px;
+}
+
+.search-bar > button:hover
+{
+    box-shadow: 10px 10px 10px grey;
+}
+
+.top-res > button
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #fff3f3;
+    border: none;
+    font-size: 20px;
+}
+
+.top-res > button:hover
+{
+    box-shadow: 10px 10px 10px grey;
+}
+
+a:link { 
+    text-decoration: none; 
+ 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+  .restaurant-name , .cuisines , .cost-for-two ,.res-menu
+  {
+    text-align: center;
+    color: #975858;
+    
+  }
+
+  .items-list
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .item-list{
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+    background-color: #fff3f3;
+    list-style-type: none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px grey;
+  }
+
+  .item-img
+  {
+    width: 280px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+
+  .item-list:hover
+  {
+    box-shadow: 10px 10px 10px rgb(139, 97, 97);
+  }
+
+  .res-cart
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+  }
+  .res-cart ,.img{
+    width : 500px;
+    height: 500px;
+  }
+  .res-cart , .h2
+  {
+    color: #975858;
+  }
+  .res-logout
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .res-logout > a > button
+  {
+    width: 100px;
+    height: 80px;
+    background-color: #fff3f3;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 10px grey;
+  }
+
+  .contact
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact > button
+  {
+    width: 200px;
+    height: 50px;
+    background-color: #ebb5b5;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+  .about
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+   
+  }
