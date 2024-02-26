@@ -1805,6 +1805,7 @@ export const resList= [
       ],
       "avgRating": 4.2,
       "parentId": "1776",
+      "promoted":true,
       "avgRatingString": "4.2",
       "totalRatingsString": "1K+",
       "sla": {
@@ -1902,6 +1903,7 @@ export const resList= [
       "parentId": "60277",
       "avgRatingString": "4.1",
       "totalRatingsString": "100+",
+      "promoted":true,
       "sla": {
         "deliveryTime": 40,
         "lastMileTravel": 5,
@@ -2000,6 +2002,7 @@ export const resList= [
       "parentId": "635",
       "avgRatingString": "4.5",
       "totalRatingsString": "10K+",
+      "promoted":true,
       "sla": {
         "deliveryTime": 35,
         "lastMileTravel": 5,
@@ -2094,6 +2097,7 @@ export const resList= [
       "parentId": "10496",
       "avgRatingString": "4.3",
       "totalRatingsString": "5K+",
+      "promoted":false,
       "sla": {
         "deliveryTime": 19,
         "lastMileTravel": 1.7,

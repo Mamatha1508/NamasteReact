@@ -1,91 +1,65 @@
-import { useEffect,useState } from "react";
-import { WOW_MOMO,MEGHANA_FOODS,CHICAGO_PIZZA,BAKINGO,ANDHRA_GUNPOWDER,ASHA_TIFFINS,MUMBAI_TIFFIN,MANI_DUM_BIRYANI ,BIG_BOWL } from "../utils/itemsData";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import { RESIMG_URL } from "../utils/constants";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 
-const RestaurantMenu=()=>{
-    const [resMenu,setResMenu]=useState(null);
-    const {resid} = useParams();
-    console.log('params',resid);
-    useEffect(()=>{
-        fetchMenuData();
-    },[])
+import { useState } from "react";
+import RestaurantMenuCategory from "./RestaurantMenuCategory";
 
-    const fetchMenuData =async ()=>{
-        console.log('res',resid)
-        switch(resid)
-        {
-            case '244004' : {
-                         setResMenu(WOW_MOMO); 
-                         break;
-                        }
-            
-            case '654809' :{
-                            setResMenu(MEGHANA_FOODS);
-                            break;
-                            }
+const RestaurantMenu = () => {
+  const { resid } = useParams();
+  console.log("params", resid);
+
+  const [resMenu, resDetails] = useRestaurantMenu(resid);
+  const [showDetails,setShowDetails]=useState(null);
+  const [showStatus,setShowStatus]=useState(false);
+
+  if (resMenu == null) return <Shimmer />;
+
+//  const  handleClick=()=>
+//   {
+//     setShowDetails(!showDetails);
+
+//   }
+  return (
+    <div>
+      <div className=" my-8 font-bold text-2xl text-center ">
+        <h1 className="m-4"> {resDetails.name}</h1>
+        <h1 className="m-4">
+          {resDetails.cuisines.join(", ")} - Rs. {resDetails.costForTwo / 100} for Two
+        </h1>
+      </div>
+      <div>
+        {resMenu.map((menu,index) => {
+        
+           return (
+        //     <div>
+        //     <div  className="w-6/12 my-4 mx-auto py-8 text-center bg-pink-50 shadow-2xl shadow-stone-900 border-gray-200 border-b-2 " >
+        //       <div className="flex justify-between cursor-pointer" onClick={(e)=>{ setShowDetails(!showDetails); e.stopPropagation();}}>
+        //         <h1 className="m-2 px-4 font-bold"  >
+        //           {menu.card.card.title} ({menu.card.card.itemCards.length})
+        //         </h1>
+        //         <span className="mx-4">🔽</span></div>
+               
+                
+               
+               
+        //       {showDetails &&  <RestaurantMenuCategory menuData={menu} />}
            
-            case '279024' :{
-                                setResMenu(ANDHRA_GUNPOWDER);
-                                    break;
-                                    }
-             case '201224' :{
-                                setResMenu(ASHA_TIFFINS);
-                                        break;
-                                        }
-           case '171768' :{
-                            setResMenu(MUMBAI_TIFFIN);
-                                            break;
-                                            }
-            case '194610' :{
-                                setResMenu(MANI_DUM_BIRYANI);
-                                      break;
-                                }
-            case '376713' :{
-                            setResMenu(BIG_BOWL);
-                                  break;
-                            }
-             default : setResMenu(WOW_MOMO)
-        }
+             
+        // </div>
+             
+        //     </div>
+        // <RestaurantMenu menuData={menu}/>
+       <div>
 
-        console.log('res after switch',resMenu);
-    }
-    console.log(resMenu);
-    if(resMenu==null)
-    return <Shimmer/>
-     const {name,cuisines,costForTwoMessage} = resMenu.data.cards[0].card.card.info;
-     
-        const cards = resMenu.data.cards[2].groupedCard.cardGroupMap.REGULAR.cards[1]?.card.card.itemCards;
-        const cards1=resMenu.data.cards[2].groupedCard.cardGroupMap.REGULAR.cards[2]?.card.card.itemCards;
-    
-   
-     console.log('cards',cards);
-    return (
-        <div>
-            <h1 className="restaurant-name">{name}</h1>
-            <h2 className="cuisines">{cuisines.join(', ')}</h2>
-            <h2 className="cost-for-two">Cost for Two : {costForTwoMessage}</h2>
-            <h1 className="res-menu">Menu</h1>
-            <div className="items-list">
-               {
-                    cards.map((card)=>{
-                       return (
-                        <div className="item-list" key={card.card.info.id}>
-                            <img src={RESIMG_URL+card.card.info.imageId} className="item-img"/>
-                            <li>{card.card.info.name} : {card.card.info.price/100}</li>
-                            <p>{card.card.info.description}</p>
-                          
-                           
-                        </div>
-                       )
-                    })
-                }
-              
-
-            </div>
-        </div>
-    )
-}
+        <RestaurantMenuCategory  menuData={menu} showDetails={index==showDetails ? showStatus : false}   setShowStatus= {()=>setShowStatus(!showStatus)} setShowDetails={()=>setShowDetails(index)}/>
+       </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
 
 export default RestaurantMenu;
