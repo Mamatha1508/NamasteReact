@@ -1,5 +1,5 @@
 
-import React,{Suspense, lazy} from "react";
+import React,{Suspense, lazy, useEffect, useState} from "react";
 import ReactDOM from "react-dom/client";
 import Header from './components/Header';
 import Body from "./components/Body";
@@ -12,8 +12,11 @@ import {Outlet} from 'react-router-dom';
 import Cart from "./components/Cart";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Logout from "./components/Logout";
-import AboutClass from "./components/AboutClass";
+import About from "./components/About";
 import Shimmer from "./components/Shimmer";
+import UserContext from "./utils/UserContext.js";
+import { Provider } from "react-redux";
+import appStore from "./redux/appStore.js";
 //import Instamart from "./components/Instamart";
 
 
@@ -90,16 +93,35 @@ import Shimmer from "./components/Shimmer";
 
 
 const Instamart= lazy(()=> import('./components/Instamart'))
-const AppLayout=()=>(
-    <div>
-        <Header />
+const AppLayout=()=>{
+ 
+    const [userName,setUserName]=useState();
+    useEffect(()=>{
+
+        let data={
+            name : 'Mamatha'
+        }
+        setUserName(data.name)
+    },[])
+
+
+   return (
+   <div>
+    <Provider store={appStore}>
+    <UserContext.Provider value={{loggedInUser : userName, setUserName}}>
+       <Header />
        
-         <Outlet/>
+       <Outlet/>
+       </UserContext.Provider>
+    </Provider>
+      
+       
         
-         
-        {/* <Footer/>  */}
+       
+       
     </div>
 )
+    }
 
 
 const appRouter= createBrowserRouter([

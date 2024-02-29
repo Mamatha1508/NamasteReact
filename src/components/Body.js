@@ -1,10 +1,11 @@
 import RestaurantCard, { PromotedRestaurant } from "./RestaurantCard";
 import resList from "../utils/mockData";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import useRestaurantList from "../utils/useRestaurantList";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   const [ListOfRestaurants, setListOfRestaurants] = useState([]);
@@ -15,6 +16,8 @@ const Body = () => {
 
   const onlineStatus = useOnlineStatus();
   const PromotedRestaurants= PromotedRestaurant(RestaurantCard);
+
+   const {loggedInUser,setUserName}= useContext(UserContext);
   let a=9;
   console.log("body render");
   useEffect(() => {
@@ -69,6 +72,9 @@ const Body = () => {
           >
             Top Rated Restaurants
           </button>
+        </div>
+        <div className="flex justify-center">
+          <input type="text"  value= {loggedInUser} onChange={(e)=> setUserName(e.target.value)} className="bg-pink-100 border-black p-4 m-4 rounded-xl"/>
         </div>
         <div>
           <div className="flex justify-evenly flex-wrap">

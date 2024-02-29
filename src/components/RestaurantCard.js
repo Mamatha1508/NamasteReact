@@ -1,5 +1,7 @@
 
+import { useContext } from "react";
 import { RESIMG_URL } from "../utils/constants";
+import UserContext from "../utils/UserContext";
 
 const RestaurantCard=(props)=> {
     console.log('props in res',props);
@@ -8,7 +10,7 @@ const RestaurantCard=(props)=> {
         backgroundColor : "white",
         
      }
-     
+      
      
         return (
      
@@ -19,6 +21,7 @@ const RestaurantCard=(props)=> {
                 <h3 className="mx-4">{cuisines.join(', ')}</h3>
                 <h4 className="mx-4">{avgRating}</h4>
                 <h4 className="mx-4">{sla.slaString}</h4>
+               
             </div>
         )
 
