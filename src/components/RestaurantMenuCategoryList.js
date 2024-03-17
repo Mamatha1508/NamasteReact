@@ -11,8 +11,9 @@ const RestaurantMenuCategoryList=(props)=>{
 console.log('props in items',props);
 //const {name,category,price,description,imageId}=props.menuList.card.info;
 const dispatch= useDispatch();
-const handleAddItem=()=>{
-  dispatch(addItem("pizza"));
+const handleAddItem=(item)=>{
+    console.log('item',item);
+  dispatch(addItem(item));
 }
     return (
         <div>
@@ -32,7 +33,7 @@ const handleAddItem=()=>{
  
              </div>
              <div>
-             <button className="absolute p-2 m-2 rounded-lg bg-pink-300" onClick={handleAddItem}>Add</button>
+             <button className="absolute p-2 m-2 rounded-lg bg-pink-300" onClick={()=>handleAddItem(item)}>Add</button>
              <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/"+item.card.info.imageId} className="h-24 m-2 " />
            
              </div> 

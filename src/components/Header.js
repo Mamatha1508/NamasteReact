@@ -18,7 +18,7 @@ const Header=()=>
    console.log('Hedaer render');
 
    const {loggedInUser} = useContext(UserContext);
-   const cartItems= useSelector((store)=>store.cart.items);
+   const cartItems= useSelector((store1)=>{ console.log('store',store1);return store1.cart.items});
     return (
         <div className="flex justify-between shadow-2xl bg-pink-50">
           <Link to='/'><img src={LOGO_URL} className="w-32 p-4"/></Link>  

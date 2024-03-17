@@ -9,11 +9,12 @@ const RestaurantMenuCategory=(props)=>{
    
 console.log('props in cat',props);
 
-//const [showDetails,setShowDetails]=useState(false);
+const [showitemStatus,setShowItemStatus]=useState(false);
 const handleClick=()=>{
     props.setShowDetails();
-    props.setShowStatus();
+    setShowItemStatus(!showitemStatus);
 }
+console.log('on click',showitemStatus);
     return (
        
 
@@ -24,7 +25,7 @@ const handleClick=()=>{
                 <span>🔽</span>
                 </div>
                
-             {props.showDetails && <RestaurantMenuCategoryList data={props.menuData.card.card.itemCards}/> }
+             {props.showDetails && showitemStatus && <RestaurantMenuCategoryList data={props.menuData.card.card.itemCards}/> }
                
             </div>
         </div>

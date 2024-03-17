@@ -12,7 +12,7 @@ const RestaurantMenu = () => {
 
   const [resMenu, resDetails] = useRestaurantMenu(resid);
   const [showDetails,setShowDetails]=useState(null);
-  const [showStatus,setShowStatus]=useState(false);
+  
 
   if (resMenu == null) return <Shimmer />;
 
@@ -21,6 +21,7 @@ const RestaurantMenu = () => {
 //     setShowDetails(!showDetails);
 
 //   }
+  
   return (
     <div>
       <div className=" my-8 font-bold text-2xl text-center ">
@@ -53,7 +54,7 @@ const RestaurantMenu = () => {
         // <RestaurantMenu menuData={menu}/>
        <div>
 
-        <RestaurantMenuCategory  menuData={menu} showDetails={index==showDetails ? showStatus : false}   setShowStatus= {()=>setShowStatus(!showStatus)} setShowDetails={()=>setShowDetails(index)}/>
+        <RestaurantMenuCategory  menuData={menu} showDetails={showDetails==index ? true : false }    setShowDetails={()=>setShowDetails(index)}/>
        </div>
           );
         })}
