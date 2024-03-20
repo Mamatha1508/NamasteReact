@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import useRestaurantList from "../utils/useRestaurantList";
 import UserContext from "../utils/UserContext";
+import React from "react";
 
 const Body = () => {
   const [ListOfRestaurants, setListOfRestaurants] = useState([]);
@@ -19,9 +20,10 @@ const Body = () => {
 
    const {loggedInUser,setUserName}= useContext(UserContext);
   let a=9;
-  console.log("body render");
+  //console.log("body render");
   useEffect(() => {
-    setTimeout(fetchData, 2000);
+  //  setTimeout(fetchData, 2000);
+    fetchData();
   }, []);
 
   const fetchData = async () => {
@@ -30,7 +32,7 @@ const Body = () => {
     setFilteredList(res);
   };
 
-  console.log("rest list", ListOfRestaurants);
+ // console.log("rest list", ListOfRestaurants);
   if (onlineStatus == false) {
     return <h1>Looks like you are offline. Plesae check your interner connectivity</h1>;
   } else if (ListOfRestaurants.length === 0) {
@@ -42,8 +44,9 @@ const Body = () => {
     return (
       <div>
         <div className="flex justify-center">
-          <input className="my-8 mx-4 p-2 rounded-lg"
+          <input data-testid="searchRestaurant" className="my-8 mx-4 p-2 rounded-lg" 
             type="text"
+            
             onChange={(e) => {
               setSearchText(e.target.value); 
             }}
@@ -81,7 +84,7 @@ const Body = () => {
             {
               
            filteredList.map((restaurant) => (
-              <Link to={"/restaurant/" + restaurant.info.id} key={restaurant.info.id} className="h-156 w-80 bg-pink-50 rounded-2xl m-4 shadow-2xl shadow-stone-900 cursor-pointer">
+              <Link to={"/restaurant/" + restaurant.info.id} key={restaurant.info.id} className="h-156 w-80 bg-pink-50 rounded-2xl m-4 shadow-2xl shadow-stone-900 cursor-pointer" data-testid="restaurantList">
              { restaurant.info.promoted ? <PromotedRestaurants key={restaurant.info.name} resData={restaurant}/> : <RestaurantCard key={restaurant.info.name} resData={restaurant} />}
             
               </Link>

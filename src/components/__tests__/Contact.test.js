@@ -1,7 +1,7 @@
 import { render , screen } from "@testing-library/react";
 import Contact from "../Contact";
 import "@testing-library/jest-dom";
-import React,{Component} from 'react';
+import React from 'react';
 
 
 it('should load a button from Contact Component', () => {

@@ -2,6 +2,7 @@
 
 import { useDispatch } from "react-redux";
 import { addItem } from "../redux/cartSlice";
+import React from "react";
 
 const RestaurantMenuCategoryList=(props)=>{
 

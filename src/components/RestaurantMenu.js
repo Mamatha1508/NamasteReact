@@ -2,6 +2,7 @@ import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import { RESIMG_URL } from "../utils/constants";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
+import React from "react";
 
 import { useState } from "react";
 import RestaurantMenuCategory from "./RestaurantMenuCategory";
@@ -11,6 +12,7 @@ const RestaurantMenu = () => {
   console.log("params", resid);
 
   const [resMenu, resDetails] = useRestaurantMenu(resid);
+  console.log('resMenu',resMenu);
   const [showDetails,setShowDetails]=useState(null);
   
 

@@ -1,0 +1,1191 @@
+
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                "title": "Recommended",
+                "itemCards": [
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924443",
+                                "name": "Golden Baby Corn",
+                                "category": "Veg Starter",
+                                "description": "300 gram |  [Energy: 325.18 kcal, Protein: 9.84g, Carbohydrates: 40.6g, Fat: 13.76g]",
+                                "imageId": "ocgjpnijydsughgjnkk0",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 30000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "300 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.5",
+                                        "ratingCount": "99 ratings",
+                                        "ratingCountV2": "99"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924450",
+                                "name": "Paneer 65",
+                                "category": "Veg Starter",
+                                "description": "300 gram |  [Energy: 723.82 kcal, Protein: 32.95g, Carbohydrates: 30.89g, Fat: 51.82g]",
+                                "imageId": "druwjzmfmz7qvepq3bkr",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 32000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "300 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.6",
+                                        "ratingCount": "107 ratings",
+                                        "ratingCountV2": "107"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924432",
+                                "name": "Aloo Dum Biryani",
+                                "category": "Veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1415.98 kcal, Protein: 25.46g, Carbohydrates: 226.97g, Fat: 42.15g]",
+                                "imageId": "mtuzvgdmipuikj6pxllr",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94820390",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412350",
+                                                "name": "Extra Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412348",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412351",
+                                                "name": "Paneer Pcs",
+                                                "price": 21000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412349",
+                                                "name": "Extra Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412352",
+                                                "name": "Extra Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 5,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.6",
+                                        "ratingCount": "554 ratings",
+                                        "ratingCountV2": "554"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924440",
+                                "name": "Spl Veg Biryani",
+                                "category": "Veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1327.35 kcal, Protein: 26.99g, Carbohydrates: 213.24g, Fat: 38.46g]",
+                                "imageId": "fsitbray4gq1kxcndqqx",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 30000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94817720",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412350",
+                                                "name": "Extra Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412348",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412351",
+                                                "name": "Paneer Pcs",
+                                                "price": 21000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412349",
+                                                "name": "Extra Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412352",
+                                                "name": "Extra Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 5,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.4",
+                                        "ratingCount": "720 ratings",
+                                        "ratingCountV2": "720"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924469",
+                                "name": "Paneer Biryani",
+                                "category": "Veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1800.51 kcal, Protein: 61.42g, Carbohydrates: 198.62g, Fat: 82g]",
+                                "imageId": "gehax5kizfwncsgkris2",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 33000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94820406",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412350",
+                                                "name": "Extra Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412348",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412351",
+                                                "name": "Paneer Pcs",
+                                                "price": 21000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412349",
+                                                "name": "Extra Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412352",
+                                                "name": "Extra Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 5,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.5",
+                                        "ratingCount": "1779 ratings",
+                                        "ratingCountV2": "1779"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924459",
+                                "name": "Chilly Chicken (Boneless)",
+                                "category": "Non-veg Starter",
+                                "description": "370 gram |  [Energy: 604.42 kcal, Protein: 50.63g, Carbohydrates: 29.67g, Fat: 30.94g]",
+                                "imageId": "ry3c3f518z10t4olu4l7",
+                                "inStock": 1,
+                                "price": 32000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "370 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.5",
+                                        "ratingCount": "210 ratings",
+                                        "ratingCountV2": "210"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924463",
+                                "name": "Chicken Lollypop",
+                                "category": "Non-veg Starter",
+                                "description": "250 gram |  [Energy: 389.14 kcal, Protein: 36.13g, Carbohydrates: 7.31g, Fat: 23.92g]",
+                                "imageId": "ldqyxnhlfylhymnsopzc",
+                                "inStock": 1,
+                                "price": 32500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "250 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.4",
+                                        "ratingCount": "210 ratings",
+                                        "ratingCountV2": "210"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924476",
+                                "name": "Chilly Chicken (Andhra Style)",
+                                "category": "Non-veg Starter",
+                                "description": "450 gram |  [Energy: 912.22 kcal, Protein: 68.75g, Carbohydrates: 5.35g, Fat: 67.98g]",
+                                "imageId": "gitnmufvwguqai831dlc",
+                                "inStock": 1,
+                                "price": 32500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "450 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.4",
+                                        "ratingCount": "56 ratings",
+                                        "ratingCountV2": "56"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924466",
+                                "name": "Lemon Chicken",
+                                "category": "Non-veg Starter",
+                                "description": "370 gram |  [Energy: 582.12 kcal, Protein: 44.58g, Carbohydrates: 31.16g, Fat: 30.79g]",
+                                "imageId": "vnotaq2k5i2nqdigafon",
+                                "inStock": 1,
+                                "price": 32000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "370 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.5",
+                                        "ratingCount": "159 ratings",
+                                        "ratingCountV2": "159"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924478",
+                                "name": "Meghana Chicken 555",
+                                "category": "Non-veg Starter",
+                                "description": "300 gram |  [Energy: 585.13 kcal, Protein: 32.48g, Carbohydrates: 26.88g, Fat: 39.36g]",
+                                "imageId": "irnwr59vlrmciau11or0",
+                                "inStock": 1,
+                                "price": 32500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "128852391",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412705",
+                                                "name": "Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412706",
+                                                "name": "Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412707",
+                                                "name": "Meghana Chicken Spl Pcs",
+                                                "price": 22500,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412708",
+                                                "name": "Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412703",
+                                                "name": "Chicken Boneless Pcs",
+                                                "price": 22000,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412704",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 6,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "300 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.5",
+                                        "ratingCount": "205 ratings",
+                                        "ratingCountV2": "205"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924453",
+                                "name": "Chicken Biryani",
+                                "category": "Non-veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1615.27 kcal, Protein: 61.82g, Carbohydrates: 190.89g, Fat: 64.63g]",
+                                "imageId": "zbrpxvywfsrrb7os11jf",
+                                "inStock": 1,
+                                "price": 31500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94819888",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412705",
+                                                "name": "Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412706",
+                                                "name": "Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412707",
+                                                "name": "Meghana Chicken Spl Pcs",
+                                                "price": 22500,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412708",
+                                                "name": "Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412703",
+                                                "name": "Chicken Boneless Pcs",
+                                                "price": 22000,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412704",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 6,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.3",
+                                        "ratingCount": "1223 ratings",
+                                        "ratingCountV2": "1223"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924472",
+                                "name": "Chicken Boneless Biryani",
+                                "category": "Non-veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1446.5 kcal, Protein: 64.22g, Carbohydrates: 189.62g, Fat: 44.2g]",
+                                "imageId": "iivuhjc2mswi9lublktf",
+                                "inStock": 1,
+                                "price": 32500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94819902",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412705",
+                                                "name": "Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412706",
+                                                "name": "Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412707",
+                                                "name": "Meghana Chicken Spl Pcs",
+                                                "price": 22500,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412708",
+                                                "name": "Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412703",
+                                                "name": "Chicken Boneless Pcs",
+                                                "price": 22000,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412704",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 6,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.6",
+                                        "ratingCount": "4277 ratings",
+                                        "ratingCountV2": "4277"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924467",
+                                "name": "Lollipop Biryani",
+                                "category": "Non-veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1673.09 kcal, Protein: 45.42g, Carbohydrates: 217.95g, Fat: 65.98g]",
+                                "imageId": "tscwxqko4pabme8gj2ty",
+                                "inStock": 1,
+                                "price": 32500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94819920",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412705",
+                                                "name": "Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412706",
+                                                "name": "Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412707",
+                                                "name": "Meghana Chicken Spl Pcs",
+                                                "price": 22500,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412708",
+                                                "name": "Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412703",
+                                                "name": "Chicken Boneless Pcs",
+                                                "price": 22000,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412704",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 6,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.2",
+                                        "ratingCount": "81 ratings",
+                                        "ratingCountV2": "81"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924480",
+                                "name": "Meghana Special Biryani",
+                                "category": "Non-veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1456.21 kcal, Protein: 64.65g, Carbohydrates: 190.89g, Fat: 44.5g]",
+                                "imageId": "zuthvcwjjvdjmo6n1pbl",
+                                "inStock": 1,
+                                "price": 33000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94819911",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412705",
+                                                "name": "Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412706",
+                                                "name": "Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412707",
+                                                "name": "Meghana Chicken Spl Pcs",
+                                                "price": 22500,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412708",
+                                                "name": "Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412703",
+                                                "name": "Chicken Boneless Pcs",
+                                                "price": 22000,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412704",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 6,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.5",
+                                        "ratingCount": "3222 ratings",
+                                        "ratingCountV2": "3222"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924505",
+                                "name": "Mutton Keema Biryani",
+                                "category": "Non-veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1551.26 kcal, Protein: 42.47g, Carbohydrates: 200.46g, Fat: 61.1g]",
+                                "imageId": "bsswvqauvfo1qg4lqblz",
+                                "inStock": 1,
+                                "price": 42500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94819955",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412705",
+                                                "name": "Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412706",
+                                                "name": "Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412707",
+                                                "name": "Meghana Chicken Spl Pcs",
+                                                "price": 22500,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412708",
+                                                "name": "Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412703",
+                                                "name": "Chicken Boneless Pcs",
+                                                "price": 22000,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412704",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 6,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.3",
+                                        "ratingCount": "82 ratings",
+                                        "ratingCountV2": "82"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924500",
+                                "name": "Prawns Biryani",
+                                "category": "Non-veg Biriyani",
+                                "description": "1050 gram |  [Energy: 1431.95 kcal, Protein: 37.34g, Carbohydrates: 213.4g, Fat: 43.56g]",
+                                "imageId": "pxqhnjvdhm3nyqkhxute",
+                                "inStock": 1,
+                                "price": 41500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "addons": [
+                                    {
+                                        "groupId": "94820089",
+                                        "groupName": "Extra",
+                                        "choices": [
+                                            {
+                                                "id": "92412705",
+                                                "name": "Gravy",
+                                                "price": 2000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412706",
+                                                "name": "Masala Pack",
+                                                "price": 10500,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412707",
+                                                "name": "Meghana Chicken Spl Pcs",
+                                                "price": 22500,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412708",
+                                                "name": "Raita",
+                                                "price": 1200,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412703",
+                                                "name": "Chicken Boneless Pcs",
+                                                "price": 22000,
+                                                "inStock": 1,
+                                                "isEnabled": 1
+                                            },
+                                            {
+                                                "id": "92412704",
+                                                "name": "Extra Aloo 4 Pcs",
+                                                "price": 4000,
+                                                "inStock": 1,
+                                                "isVeg": 1,
+                                                "isEnabled": 1
+                                            }
+                                        ],
+                                        "maxAddons": 6,
+                                        "maxFreeAddons": -1
+                                    }
+                                ],
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "1050 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.3",
+                                        "ratingCount": "188 ratings",
+                                        "ratingCountV2": "188"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924471",
+                                "name": "Butter Chicken Curry",
+                                "category": "Non-veg Curries",
+                                "description": "600 gram |  [Energy: 910.32 kcal, Protein: 50.28g, Carbohydrates: 32.44g, Fat: 63.47g]",
+                                "imageId": "mqfjzwea48recubya6or",
+                                "inStock": 1,
+                                "price": 33000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "600 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.5",
+                                        "ratingCount": "179 ratings",
+                                        "ratingCountV2": "179"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "106924457",
+                                "name": "Paneer Butter Masala",
+                                "category": "Veg Curries",
+                                "description": "550 gram |  [Energy: 1156.81 kcal, Protein: 43.54g, Carbohydrates: 37.93g, Fat: 92.6g]",
+                                "imageId": "ksjxi61s8xqlj8cqp4zs",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 32000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "550 gram"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.3",
+                                        "ratingCount": "162 ratings",
+                                        "ratingCountV2": "162"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    }
+                ],
+                "type": "CATEGORY_TYPE_RECOMMENDED"
+            }
+        }
+    }
+  

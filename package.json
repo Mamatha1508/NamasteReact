@@ -7,7 +7,7 @@
     "build": "npx parcel build index.html",
     "test": "jest",
     "type": "module",
-    "transpile": "NODE_ENV=production npx babel --out-dir ../build --relative --copy-files src"
+    "watch-test" : "jest --watch"
   },
   "repository": {
     "type": "git",
