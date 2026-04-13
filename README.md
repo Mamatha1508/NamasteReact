@@ -47,3 +47,10 @@ https://mamatha-fooddeliveryapp.netlify.app/
 2. cd NamasteReact
 3. npm install
 4. npm start
+
+
+## Screenshots
+
+[Home] (screenshots/home.png)
+[Menu] (screenshots/Menu.png)
+[cart] (screenshots/cart.png)
